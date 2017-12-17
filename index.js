@@ -18,6 +18,8 @@ let distance = (Math.abs(start -destination))*264;
 
 if (distance < 400){
   let fare = 0;
+
+  return fare;
 }
 
 if (distance >= 400 && distance < 2000){
