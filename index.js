@@ -14,6 +14,7 @@ return (Math.abs(start -destination))*264;
 }
 
 function calculatesFarePrice(start, destination){
+let distance = Math.abs(start -destination);
 
 if (distance < 400){
   let fare = 0;
@@ -33,4 +34,3 @@ if (distance >= 2500){
 
 return fare;
 }
-
