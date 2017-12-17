@@ -7,7 +7,7 @@ function distanceFromHqInBlocks(start){
 }
 
 function distanceFromHqInFeet(){
-
+return (Math.abs(start -42))*264;
 }
 
 function distanceTravelledInFeet(){
