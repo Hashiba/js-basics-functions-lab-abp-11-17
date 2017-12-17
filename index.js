@@ -6,7 +6,7 @@ function distanceFromHqInBlocks(start){
   return Math.abs(start -42);
 }
 
-function distanceFromHqInFeet(){
+function distanceFromHqInFeet(start){
 return (Math.abs(start -42))*264;
 }
 
