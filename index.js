@@ -34,7 +34,7 @@ if (distance >= 2000 && distance < 2500){
 }
 
 if (distance >= 2500){
-  let fare = 25;
+  return "cannot travel that far";
 }
 
 
