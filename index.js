@@ -30,6 +30,7 @@ if (distance >= 400 && distance < 2000){
 
 if (distance >= 2000 && distance < 2500){
   let fare = 25;
+  return fare;
 }
 
 if (distance >= 2500){
